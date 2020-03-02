@@ -1,0 +1,750 @@
+  /*CHAMANDO FONTE DO SITE*/
+
+   @font-face {
+      font-family: 'Foundry\ Monoline\ W01\ Bd.woff2';
+      src: url('../fonts/Foundry\ Monoline\ W01\ Bd.woff2') format('woff2'),
+          url('../fonts/Foundry\ Monoline\ W01\ Bd.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+
+   /*TIPOGRAFIA*/
+  
+    body a h1 p {
+      font-family: 'Foundry\ Monoline\ W01\ Bd.woff2';
+    }
+
+
+    /*SESSÃO DOS BANNERS*/
+
+    #banner {
+
+      background-image: url('../images/Retângulo 1.png');
+      background-size: cover;
+        
+    }
+
+    #banner .selo{
+
+      margin-top: 15em;
+
+    }
+
+    #banner > .container > div {
+
+      height: 400px;
+    }
+
+    #details {
+
+      background-image: url('../images/Retângulo 11.png');
+      background-size: cover;
+        
+    }
+
+
+    /*SESSÃO MENU INICIAL*/
+
+    #menu {
+      background-color:#EEEEEE;
+    
+    }
+    #menu .icone {
+      margin: 7px;
+      padding-left: 8px;
+      
+      
+    }
+
+    #menu .iconenv {
+      margin-left: 27px;
+      margin: 7px;
+      padding-left: 30px;
+    }
+
+    #menu .item{
+      padding:0.1em 0;
+
+    }
+
+    #menu .item a {
+      color:#707070;
+      text-decoration:none;
+      font-size: 12px;
+      font-style: normal;
+      
+    }
+
+    /*SESSÃO PARTE DE BAIXO DO MENU INICIAL*/
+
+    #submenu {
+
+      height: 90px;
+      
+    }
+
+    #submenu .logo{
+      padding: 1em;
+      margin-left: -15px;
+    }
+
+    #submenu .telefone{
+      text-align: center;
+      padding: 1em;
+    }
+
+    #submenu .telefone p {
+
+      font-size: 16px;
+      font-style:italic;
+      text-transform: uppercase;
+      margin: 0;
+      color: #727B7A;
+      margin-left: -15px;
+
+    }
+
+    #submenu .telefone a {
+
+      color: red;
+      font-size: 26px;
+      font-style:italic;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-left: -31px;
+      
+    }
+
+    #submenu .logotop img {
+
+      height: auto;
+      width: auto;
+      vertical-align: middle;
+      border-style: none;
+      background-position: 2cm;
+
+    }
+
+  
+    /*SESSÃO FOTOS-INFORMAÇÕES PARTE DE CIMA*/
+
+    #information .titulo h1 {
+
+      font-size: 34px;
+      font-style:italic;
+      margin: 1em;
+      font-weight: lighter;
+      color: black;
+
+    }
+
+    #information .text p {
+
+      font-size: 18px;
+      padding: 2em;
+      color: black;
+
+    }
+
+    /*#information .sticker img {
+
+      margin: 2px; 
+      padding: 2px; 
+      border: 0.1px solid #ccc;
+   }*/
+
+
+   /*SESSÃO SEGUNDO BANNER*/
+
+   #details .cover h1 {
+
+    font-size: 34px;
+    padding-top: 9em;
+    font-style: italic;
+    font-weight: normal;
+    color: #FFFFFF;
+
+   }
+
+   #details .cover p {
+
+    padding-top: auto;
+    font-size: 18px;
+    color: #FFFFFF;
+
+   }
+
+   /*SESSÃO CARROUSEL*/
+
+   #carrousel .figures img{
+   
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    padding: 4px; 
+
+   }
+
+   #carrousel .figures h1{
+
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    color: #000000;
+    margin: -9px;
+    padding-top: 30px;
+    text-align: left;
+    white-space: nowrap;
+
+   }
+
+   #carrousel .figures p{
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: lighter;
+    color: #000000;
+    margin: -9px;
+    padding-top: 20px;
+    text-align: initial;
+
+  
+  }
+
+  #carrousel .item{
+    /* width: 300px; */
+    padding: 10px;
+    display: inline-block;
+  }
+
+  #carrousel .owl-prev{
+   
+    font-size: 47px;
+    position: absolute;
+    top: 22%;
+    left: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 100%;
+    width: 39px;
+    height: 34px;
+    line-height: 0;
+    color: white;
+    
+
+  }
+
+  #carrousel .owl-next{
+    position: relative;
+    top: 50%;
+
+    font-size: 47px;
+    position: absolute;
+    top: 22%;
+    right: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 100%;
+    width: 39px;
+    height: 34px;
+    line-height: 0;
+    color: white;
+   
+
+  }
+
+   /*SESSÃO CARDS FINAL PÁGINA*/
+
+   #cards h1{
+
+    font-size: 34px;
+    font-style: italic;
+    font-weight: normal;
+    color: #000000;
+
+   }
+
+   #cards p{
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+
+   }
+
+   #cards .sticker p{
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    color:#000000;
+
+   }
+
+   #cards .sticker .card{
+
+    padding: 8px 15px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    height: 350px;
+  
+    
+   }
+
+   #cards .sticker h4{
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    color:#000000;
+    border: 0.1px solid #ccc;
+    font-family: 'roboto';
+    padding: 10px;
+
+   }
+
+   /*SESSÃO INFORMAÇÕES CONTATO FINAL PÁGINA*/
+
+   #socials {
+
+    background-color: #EEEEEE;
+    height: 240px;
+    margin-top: 30px;
+
+   }
+
+   #socials .location {
+    
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #DF0209 ;
+    background-color:#FFFFFF;
+    height: 80px;
+    width: 270px;
+    margin: 1.7em;
+    
+   }
+
+   #socials .contacts {
+
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #DF0209 ;
+    background-color:#FFFFFF;
+    height: 80px;
+    width: 270px;
+    margin: 1.7em;
+    
+   }
+
+   #socials .location img {
+    
+    width: 26px;
+    height: 39.5px;
+    float: left;
+    margin-top: 1em;
+    margin: 1em;
+    
+   }
+
+   #socials .location p {
+    
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    text-align: justify;
+    line-height: 0.2;
+    margin-top: 1.7em;
+    
+   }
+
+   #socials .location h3 {
+    
+    font-size: 22px;
+    color: #DF0209;
+    font-weight: normal;
+    text-align: left;
+    text-align: justify;
+    line-height: 0.1;
+    
+   }
+
+   #socials .contacts p {
+
+    font-size: 17px;
+    font-style:italic;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    color: #727B7A;
+    letter-spacing: 0.1px;
+
+   }
+
+   #socials .contacts a {
+
+    color: red;
+    font-size: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 0.1;
+    text-align: left;
+   }
+
+   #socials h2{
+
+    color:#000000;
+    font-size: 24;
+    font-style:italic;
+    font-weight: normal;
+    margin-top: -0.2em;
+
+   }
+
+  #socials .figures img{
+
+    margin: 9px;
+
+  }
+
+  #socials .row {
+
+    text-align: center;
+
+  }
+
+  /*SESSÃO FOOTER*/
+
+  #final {
+
+    height: 83px;
+  }
+
+  #final .banzai{
+
+    padding: 30px;
+    margin-left: 260px;
+    
+
+  }
+
+
+  #final p{
+    color: #707070;
+    font-size: 13px;
+    text-align: left;
+    padding: 10px;
+    white-space: nowrap;
+    margin-top: 30px;
+    display: inline-block;
+  
+  }
+
+  /*SESSÃO FORMULÁRIO*/
+
+  #form{
+
+    border: 0.7px solid#EEEEEE;
+    border-radius: 6px;
+    width: 270px;
+    float: left;
+    margin-left: 500px;
+    margin-top: 50px;
+    background-color: #EEEEEE;
+    font-size: 14px;
+    padding: 20px;
+    position: fixed;
+    /* top: 58px; */
+    right: 90px;
+    z-index: 9999;
+
+  }
+
+  #nomeform {
+
+    background-image: url('../images/homem.png');
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 16%;
+    border: 0.5px solid #ccc;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-position: 5% 50%;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #ccc;
+
+
+  }
+
+  #emailform {
+
+    background-image: url('../images/envelope.png');
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 16%;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-position: 5% 50%;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #ccc;
+
+
+  }
+
+  #telefoneform {
+
+    background-image: url('../images/telefone.png');
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 16%;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-position: 5% 50%;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #ccc;
+
+
+  }
+
+  #inputhora {
+
+    background-image: url('../images/relogio.png');
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 16%;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-position: 5% 50%;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #aaa;
+
+
+  }
+
+  #inputunidade {
+
+    background-image: url('../images/facebook-placeholder-for-locate-places-on-maps.png');
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 16%;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-position: 5% 50%;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #aaa;
+
+
+
+  }
+  
+  #form img{
+
+    float: left;
+    margin-right: 15px;
+
+  }
+
+  #form p{
+
+    
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    color: #000000;
+    letter-spacing: 0.1px;
+    padding: -5px;
+
+  }
+
+  #form h3{
+
+    color:#DF0209;
+    font-size: 22px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-align: left;
+    margin-bottom: 25px;
+
+  }
+
+  /*SESSÃO RESPONSIVIDADE*/
+
+@media (max-width:768px){
+      
+  #form {
+    display: none;
+  }
+
+  #menu .item a{
+    display: none;
+  }
+
+  #submenu .logotop{
+
+    text-align: center;
+  }
+
+  #submenu{
+
+    height: 170px;
+
+  }
+
+  /*SESSÃO RESPONSIVIDADE - BANNER*/
+
+  #banner {
+    background-image: url(../images/Grupo\ 113.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    
+}
+
+  #banner .selo{
+
+  display: none;
+
+}
+
+  /*SESSÃO RESPONSIVIDADE - INFORMAÇÕES*/
+
+
+#information .col-md-3 {
+
+  display: none;
+
+}
+
+#information .titulo h1 {
+
+  text-align: center;
+  
+  
+}
+
+#information p {
+
+  text-align: center;
+  
+  
+}
+
+  /*SESSÃO RESPONSIVIDADE - DETALHES*/
+
+#details .cover h1 {
+
+  text-align: center;
+
+}
+
+#details .cover p {
+
+  text-align: center;
+
+}
+
+  /*SESSÃO RESPONSIVIDADE - CARROUSEL*/
+
+#carrousel .figures h1{
+
+  text-align: center;
+
+
+}
+
+#carrousel .figures p{
+
+  text-align: center;
+
+
+}
+
+  /*SESSÃO RESPONSIVIDADE - CARDS*/
+
+#cards h1{
+
+  text-align: center;
+
+}
+
+#cards p{
+
+  text-align: center;
+
+}
+
+#card1{
+
+  display: none;
+}
+
+#card2{
+
+  display: none;
+}
+
+  /*SESSÃO RESPONSIVIDADE - SOCIALS*/
+
+#socials .row {
+
+  text-align: center;
+
+}
+
+#socials .row h2 {
+
+  font-size: 18px;
+  text-align: center;
+
+}
+
+#socials {
+
+  height: 340px;
+}
+
+  /*SESSÃO RESPONSIVIDADE - FOOTER*/
+
+  #final .banzai {
+
+    padding: 30px;
+    margin-left: 0px;
+
+  }
+
+  #final .ibama2{
+
+
+  }
+
+  #final .col-md-6 {
+
+    text-align: center;
+  }
+
+}
+
+
+
+
+
+
+  
+  

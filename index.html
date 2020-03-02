@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Iniciais -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Site Teste Carbel">
+    <meta name="keywords" content="HTML,CSS,JavaScript, Bootstrap, Gulp">
+    <meta name="author" content="Bruno Peter Rodrigues">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Chamando Bootstrap / CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+
+    <title>Site Banzai</title>
+
+</head>
+
+<body>
+
+    <!-- MENU PRINCIPAL -->
+
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xs-4 item">
+                    <img src="assets/images/home-button.png" class="icone"><a href="#">Ir para o
+                        portal banzai</a>
+                </div>
+                <div class="col-md-2 col-xs-4 item">
+                    <img src="assets/images/facebook-placeholder-for-locate-places-on-maps.png" class="icone"><a
+                        href="#">Encontre uma
+                        Concessionária</a>
+                </div>
+                <div class="col-md-2 col-xs-4 item">
+                    <img src="assets/images/envelope.png" class="iconenv">
+                    <a href="#">Fale Conosco</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU ABAIXO DO PRINCIPAL  -->
+
+    <section id="submenu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 logotop">
+                    <img src="assets/images/logo.png" class="logo">
+                </div>
+                <div class="col-md-3 telefone">
+                    <p>Central de Atendimento</p>
+                    <a href="tel:+">(31) 3123- 1234</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SESSÃO FORMULÁRIO -->
+
+    <section id="form" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+
+        <form>
+            <img src="assets/images/Grupo 45.png" class="logo">
+            <p>Solicite um</p>
+            <h3>CONTATO</h3>
+            <input type="email" class="form-control" id="nomeform" placeholder="Nome">
+            <input type="password" class="form-control" id="emailform" placeholder="E-mail">
+            <input type="text" class="form-control" id="telefoneform" placeholder="Telefone">
+            <select id="inputhora" class="form-control">
+                <option selected>Escolha o horário</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <select id="inputunidade" class="form-control">
+                <option selected>Escolha a unidade</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <button type="submit" class="btn btn-success btn-block">AGENDAR TEST DRIVE</button>
+        </form>
+    </section>
+
+    <!-- SESSÃO PRIMEIRO BANNER -->
+    <section id="banner">
+        <div class="container">
+            <div>
+                <img src="assets/images/os-eleitos-grande-vencedor-2017_0.png" class="selo">
+            </div>
+        </div>
+    </section>
+
+    <!-- SESSÃO INFORMAÇÕES E FOTOS -->
+
+    <section id="information">
+        <div class="container">
+            <div class="row titulo">
+                <div>
+                    <h1>A EMOÇÃO DE DIRIGIR LEVA VOCÊ MAIS LONGE</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="assets/images/Retângulo 16.png"
+                                style="margin: 2px; padding: 2px; border:0.1px solid #ccc;">
+                            <img src="assets/images/Retângulo 19.png"
+                                style="margin: 2px; padding: 2px; border:0.1px solid #ccc;">
+                            <img src="assets/images/Retângulo 21.png"
+                                style="margin: 2px; padding: 2px; border:0.1px solid #ccc;">
+                        </div>
+                        <div class="col-md-9">
+                            <img src="assets/images/juntosi.png" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text">
+                            <div>
+                                <p>O novo Civic Geração 10 traz um design único mudando a categoria de
+                                    sedãs para sempre. Ele garante a melhor dirigibilidade com o máximo em sofisticação
+                                    e
+                                    conforto, atribuído por seu design interno e diferenciada ergonomia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEGUNDO BANNER  -->
+
+    <section id="details">
+        <div class="container">
+            <div class="row cover">
+                <div style="height: 415px">
+                    <h1>PREPARE-SE PARA ALGO REALMENTE NOVO</h1>
+                    <p>O Novo Civic Geração 10 vem completo de série. Conheça a versão perfeita para você.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SESSÃO CARROUSEL -->
+
+    <section id="carrousel">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="owl-carousel owl-theme figures">
+                        <div class="item">
+                            <img src="assets/images/07-DIRECAO_ELETRICA.png" class="img-responsive">
+                            <h1>Direção com Assistência </h1>
+                            <p>Sistema de estabilidade que reforça
+                                automaticamente o retorno da direção,
+                                auxiliando o motorista em situações onde o
+                                carro está ameaçado de instabilidade.</p>
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/08-VIDROS_ELETRICOS.png" class="img-responsive">
+                            <h1>Vidros elétricos com subida</h1>
+                            <p>Todas as portas possuem vidros elétricos
+                                com a função “um toque” e sistema de
+                                segurança antiesmagamento.</p>
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/01-CAMBIO_AUTOMATICO.png" class="img-responsive">
+                            <h1>Câmbio CVT com Paddle Shift </h1>
+                            <p>O câmbio com transmissão CVT de 7
+                                velocidade com Paddle Shift (aletas)
+                                proporciona conforto ao trocar de
+                                marchas..</p>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SESSÃO CARDS -->
+
+    <section id="cards">
+        <div class="container">
+
+            <h1>PRONTO PARA TER UM HONDA?</h1>
+            <p>Conheça os últimos grandes lançamentos da honda.</p>
+
+
+            <div class="row sticker">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="assets/images/accord.png">
+                                <p>Novo Honda Accord: a combinação
+                                    perfeita de três atributos exigidos pelo
+                                    consumidor: elegância, luxo e alto
+                                    desempenho.</p>
+                                <h4>CONHEÇA MAIS</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" id="card1">
+                                <img src="assets/images/city.png">
+                                <p>O City está muito mais moderno e esportivo. Com design único e mais tecnológico do
+                                    que
+                                    nunca,
+                                    ele vai conquistar todos os olhares.</p>
+                                <h4>CONHEÇA MAIS</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4" id="card2">
+                            <div class="card">
+                                <img src="assets/images/fit_2018.png">
+                                <p>Com seu design inconfundível,
+                                    o novo Honda Fit traz novidades que vão surpreender a todos e atrair ainda mais fãs.
+                                </p>
+                                <h4>CONHEÇA MAIS</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+    </section>
+
+    <!-- SESSÃO INFORMAÇÕES CONTATO FINAL PÁGINA -->
+
+    <section id="socials">
+        <div class="container">
+            <div class="row">
+                <button class="location">
+                    <img src="assets/images/facebook-placeholder-for-locate-places-on-maps.png">
+                    <div>
+                        <p>Encontre uma</p>
+                    </div>
+                    <h3>CONCESSIONÁRIA</h3>
+                </button>
+                <button class="contacts">
+                    <p>Central de Atendimento</p>
+                    <a href="tel:+">(31) 3123- 1234</a>
+                </button>
+            </div>
+            <div class="row">
+                <h2>SIGA A BANZAI NAS REDES SOCIAIS</h2>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="row figures">
+                        <div class="col-md-auto">
+                            <img src="assets/images/facebook.png">
+                            <img src="assets/images/instagram.png">
+                            <img src="assets/images/twitter.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--RODA PÉ DO SITE -->
+
+    <footer>
+        <section id="final">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <img src="assets/images/logo-1.png" class="banzai">
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <p>Todos juntos fazem um trânsito melhor</p>
+                        <img src="assets/images/logo_ibama.png" class="ibama2">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- PARTE PADRÃO BOOTSTRAP / SCRIPTS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="assets/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
